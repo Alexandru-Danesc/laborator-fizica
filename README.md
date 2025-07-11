@@ -1,1 +1,1 @@
-(12) Lucrări de laborator de Fizică
+(12) Physics laboratory sheet works
