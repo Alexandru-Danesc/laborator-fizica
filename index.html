@@ -15,8 +15,30 @@
     padding: 0 16px;
     background: #f9f9f9;
     color: #333;
+
+  background-image: url("laborator-fiz.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: #2b2b2b;
   }
 
+
+    .content-panel {
+  max-width: 760px;
+  margin: 0 auto;
+
+  background: rgba(230, 230, 230, 0.92);
+  backdrop-filter: blur(2px);
+
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
   h1 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
@@ -82,10 +104,18 @@
     body {
       font-size: 15px;
       padding: 0 14px;
+      background-image: url("laborator-fiz-mobile.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed; 
     }
-
+    
+  .content-panel {
+  background: rgba(230, 233, 230, 0.92);
+ }
     h1 {
-      font-size: 1.9rem;
+      font-size: 1.7rem;
     }
     
     .underline {
@@ -145,6 +175,7 @@
 
 </head>
 <body>
+  <div class="content-panel">
   <h1>Laborator Fizică</h1>
     <ul>
         <li>
@@ -226,5 +257,6 @@
             </a>
         </li>
        </ul>
+    </div>
 </body>
 </html>
